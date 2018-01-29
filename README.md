@@ -1,6 +1,6 @@
 # Privacy Proxy
 
-> The best way to prevent leaking information is to prevent taking informatin.
+> The best way to prevent leaking information is to prevent taking information.
 
 Privacy Proxy is a reverse proxy designed for filtering in-bound data streams to
 your organization free of any Personally Identifiable Information.  By default,
