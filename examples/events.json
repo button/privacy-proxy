@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "event_id": 1,
+      "user": {
+        "id": 128937321897,
+        "active": true,
+        "email": "will@usebutton.com"
+      }
+    },
+    {
+      "event_id": 2,
+      "user": {
+        "id": 324908432897,
+        "active": false,
+        "email": "grapes@usebutton.com"
+      }
+    },
+    {
+      "event_id": 2,
+      "user": {
+        "id": 987438973242,
+        "active": true,
+        "email": "diggy@usebutton.com"
+      }
+    }
+  ]
+}
