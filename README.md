@@ -51,7 +51,7 @@ match "http" {
 }
 ```
 
-Start PII Proxy...
+Start Privacy Proxy...
 
 ```bash
 $ go get github.com/button/privacy-proxy
@@ -187,8 +187,8 @@ generally recommended to whitelist leaf nodes of documents (more specific).
 
 ### Deployment
 
-Your PII Proxy should be placed as close to the data source as possible.  This
-helps prevent against PII leaking to e.g. log files inadvertently.  If you
+Your Privacy Proxy should be placed as close to the data source as possible.
+This helps prevent against PII leaking to e.g. log files inadvertently.  If you
 have a load balancer that terminates SSL, you could use this as the downstream
 server and then forward this on to your application tier.
 
@@ -202,7 +202,7 @@ Maybe!
 
 Fair!  It's definitely going to add a bit to your round trip time. Redacting PII
 in application code is always in-bounds and always a great idea.  For cases
-where you can afford the latency, PII Proxy is a nice architectural block to
+where you can afford the latency, Privacy Proxy is a nice architectural block to
 build safe systems with.
 
 ### Design Principles
@@ -261,7 +261,7 @@ still qualify as PII.
   wanted a hash?
 * More expressive location syntax
 * More expressive pathname matching
-* A centralized owner
+* A centralized node that can monitor and deploy config updates to edge nodes
 * Support additional request body types:
   * XML
   * Protobuf
