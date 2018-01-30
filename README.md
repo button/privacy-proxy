@@ -25,7 +25,7 @@ aggregators, internal tools, etc.
 
 It's unclear what the optimal form of this idea is.  It might be a middleware,
 a load balancer module, or otherwise.  This reverse proxy is one instance of the
-core idea of a whitelist redacter.
+core idea of a whitelist redactor.
 
 ### Quick Start
 
@@ -266,6 +266,6 @@ still qualify as PII.
   * XML
   * Protobuf
   * Form encoding
-* Support for other architectures: Middleare, AWS Lambda, queues, etc.  Keep a
+* Support for other architectures: Middleware, AWS Lambda, queues, etc.  Keep a
   hard separation between the core redacting logic and the host interface to
   make it pluggable.
