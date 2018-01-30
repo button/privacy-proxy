@@ -33,7 +33,7 @@ core idea of a whitelist redactor.
 2. [Config](#config)
 3. [Whitelist Syntax](#whitelist-syntax)
 4. [Deployment](#deployment)
-5. [FAQ](#faw)
+5. [FAQ](#faq)
 6. [Design Principles](#design-principles)
 7. [Future Work](#future-work)
 8. [Contributing](#contributing)
