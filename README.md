@@ -27,6 +27,17 @@ It's unclear what the optimal form of this idea is.  It might be a middleware,
 a load balancer module, or otherwise.  This reverse proxy is one instance of the
 core idea of a whitelist redactor.
 
+**Table of Contents**
+
+1. [Quick Start](#quick-start)
+2. [Config](#config)
+3. [Whitelist Syntax](#whitelist-syntax)
+4. [Deployment](#deployment)
+5. [FAQ](#faw)
+6. [Design Principles](#design-principles)
+7. [Future Work](#future-work)
+8. [Contributing](#contributing)
+
 ### Quick Start
 
 We're going to define a reverse proxy available on port `8080` that forwards
@@ -55,7 +66,7 @@ Start Privacy Proxy...
 
 ```bash
 $ go get github.com/button/privacy-proxy
-$ privacy-proxy config.hcl
+$ ./privacy-proxy config.hcl
 ```
 
 Make a request...
@@ -269,3 +280,15 @@ still qualify as PII.
 * Support for other architectures: Middleware, AWS Lambda, queues, etc.  Keep a
   hard separation between the core redacting logic and the host interface to
   make it pluggable.
+
+### Contributing
+
+We welcome contributions to Privacy Proxy!  Please review our
+[Code of Conduct](https://github.com/button/privacy-proxy/blob/master/CODE_OF_CONDUCT.md)
+before submitting an Issue or Pull Request.
+
+1) _(Optional)_: Vet your idea by submitting an [Issue](https://github.com/button/privacy-proxy/issues/new)
+2) Implement a change you'd like to see
+3) Run the tests: `go test`
+4) Submit a focused PR with an appropriate description of the problem, goals,
+and proposed solution.
