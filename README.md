@@ -37,6 +37,7 @@ core idea of a whitelist redactor.
 6. [Design Principles](#design-principles)
 7. [Future Work](#future-work)
 8. [Contributing](#contributing)
+9. [License and Copyright](#license-and-copyright)
 
 ### Quick Start
 
@@ -292,3 +293,9 @@ before submitting an Issue or Pull Request.
 3) Run the tests: `go test`
 4) Submit a focused PR with an appropriate description of the problem, goals,
 and proposed solution.
+
+### License and Copyright
+
+Licensed under the MIT license. See `LICENSE.txt` for full terms.
+
+Copyright 2018 Button, Inc.
